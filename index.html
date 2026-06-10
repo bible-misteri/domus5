@@ -275,6 +275,310 @@ Relasi mendahului institusi.
 <section class="domus-core">
 
 <h2>INTI DOMUS</h2>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rumah Sebelum Taurat | DOMUS ISAACI</title>
+
+<style>
+
+:root{
+--bg:#081320;
+--text:#f5f1e8;
+--accent:#87bfff;
+--soft:#c6c6c6;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:var(--bg);
+color:var(--text);
+font-family:Georgia,serif;
+line-height:1.9;
+overflow-x:hidden;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.fade{
+opacity:0;
+animation:fadein 2s forwards;
+}
+
+.fade:nth-child(2){
+animation-delay:2s;
+}
+
+.fade:nth-child(3){
+animation-delay:4s;
+}
+
+.fade:nth-child(4){
+animation-delay:6s;
+}
+
+@keyframes fadein{
+to{
+opacity:1;
+}
+}
+
+.bigtitle{
+font-size:48px;
+color:var(--accent);
+margin-top:40px;
+}
+
+.content{
+max-width:900px;
+margin:auto;
+padding:60px 30px;
+font-size:20px;
+}
+
+.block{
+margin:50px 0;
+padding:30px;
+border-left:4px solid var(--accent);
+background:rgba(255,255,255,0.03);
+}
+
+.question{
+font-size:30px;
+text-align:center;
+margin:80px 0;
+color:var(--accent);
+}
+
+.card{
+background:rgba(255,255,255,0.04);
+padding:25px;
+margin:25px 0;
+border-radius:12px;
+cursor:pointer;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-4px);
+}
+
+.answer{
+display:none;
+margin-top:20px;
+color:var(--soft);
+}
+
+.domus-core{
+text-align:center;
+padding:80px 20px;
+}
+
+.domus-core h2{
+font-size:40px;
+color:var(--accent);
+margin-bottom:30px;
+}
+
+.domus-core p{
+max-width:700px;
+margin:auto;
+font-size:24px;
+}
+
+.footer{
+text-align:center;
+padding:80px 20px;
+}
+
+.btn{
+padding:16px 30px;
+background:var(--accent);
+color:#081320;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="fade">
+<h2>Sebelum Sinai...</h2>
+</div>
+
+<div class="fade">
+<h2>Sebelum Loh Batu...</h2>
+</div>
+
+<div class="fade">
+<h2>Sebelum Taurat Dituliskan...</h2>
+</div>
+
+<div class="fade bigtitle">
+RUMAH SEBELUM TAURAT
+</div>
+
+</section>
+
+<div class="progress-wrap">
+
+<div class="progress-label">
+Penjelajahan 100%
+</div>
+
+<div class="progress">
+<div class="bar" style="width:100%;"></div>
+</div>
+
+<style>
+
+.progress-wrap{
+max-width:800px;
+margin:30px auto;
+padding:0 20px;
+}
+
+.progress-label{
+margin-bottom:10px;
+color:#87bfff;
+}
+
+.progress{
+height:12px;
+background:#222;
+border-radius:20px;
+overflow:hidden;
+}
+
+.bar{
+height:100%;
+background:#87bfff;
+}
+
+</style>
+
+<div style="
+text-align:center;
+color:#87bfff;
+margin-top:15px;
+font-style:italic;
+">
+
+🏺 Seluruh artefak utama telah ditemukan
+
+</div>
+
+</div>
+
+<section class="content">
+
+<div class="question">
+
+Apa yang menopang hubungan antara manusia dan Tuhan
+sebelum hukum tertulis ada?
+
+</div>
+
+<p>
+
+Abraham sudah percaya.
+
+Ishak sudah hidup dalam perjanjian.
+
+Yakub sudah bergumul dengan Yang Ilahi.
+
+Namun Sinai belum terjadi.
+
+Loh batu belum diturunkan.
+
+Taurat belum dituliskan.
+
+</p>
+
+<div class="block">
+
+DOMUS ISAACI tidak menolak Taurat.
+
+Namun ia mengajukan sebuah pertanyaan yang lebih tua.
+
+Apakah hubungan dengan Tuhan pertama-tama lahir dari hukum?
+
+Ataukah hukum lahir untuk menjaga hubungan yang sudah ada?
+
+</div>
+
+<div class="card" onclick="toggle('a1')">
+
+<h3>Abraham</h3>
+
+<div id="a1" class="answer">
+
+Abraham dipanggil sebelum Sinai.
+
+Yang menopangnya bukan hukum tertulis.
+
+Melainkan panggilan dan kepercayaan.
+
+</div>
+
+</div>
+
+<div class="card" onclick="toggle('a2')">
+
+<h3>Ishak</h3>
+
+<div id="a2" class="answer">
+
+Ishak hampir tidak berbicara.
+
+Namun hidupnya dipenuhi warisan perjanjian.
+
+Seolah rumah itu sendiri menjadi kesaksian.
+
+</div>
+
+</div>
+
+<div class="card" onclick="toggle('a3')">
+
+<h3>Yakub</h3>
+
+<div id="a3" class="answer">
+
+Yakub bergumul bahkan sebelum bangsa Israel memiliki hukum nasional.
+
+Relasi mendahului institusi.
+
+</div>
+
+</div>
+
+</section>
+
+<section class="domus-core">
+
+<h2>INTI DOMUS</h2>
 
 <p>
 
@@ -312,7 +616,7 @@ Ia menjadi rumah.
 
 <section class="footer">
 
-<a href="https://jpeg.norman-lab.workers.dev/" class="btn">
+<a href="https://jpeg.norman-lab.workers.dev/"class="btn">
 
 Arsip Artefak 
 
